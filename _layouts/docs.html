@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html data-wf-domain="www2.blockstack.org" data-wf-page="5e9482f5dd422456a3bdb819" data-wf-site="5e7b1a27d160ce49af1c24e1" class="w-mod-js w-mod-ix wf-ibmplexmono-n4-active wf-active">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>{{ page.title }} - Blockstack Documentation</title>
+
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<meta content="Webflow" name="generator">
+<link href="/static/css/www-blockstack.webflow.675511992.min.css" rel="stylesheet" type="text/css">
+<link href="/static/css/overrides.css" rel="stylesheet" type="text/css">
+<link href="/static/css/perldoc.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="/static/css/jquery-ui.min.css">
+<link rel="stylesheet"
+      href="/static/css/styles/atom-one-light.css">
+<script src="/static/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<style>
+@media (min-width:992px) {
+html.w-mod-js:not(.w-mod-ix) [data-w-id="3dbfccd5-1ef0-9879-8f84-9d2c64662408"] {
+    display: none;
+}
+html.w-mod-js:not(.w-mod-ix) [data-w-id="6b315923-00c9-32d5-fca8-df5eca2d7213"] {
+    -webkit-transform: translate3d(0PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+    -moz-transform: translate3d(0PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+    -ms-transform: translate3d(0PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+    transform: translate3d(0PX, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+}
+}
+</style>
+<script src="/static/js/webfont.js" type="text/javascript"></script>
+<link rel="stylesheet" href="/static/css/css.css" media="all">
+<script type="text/javascript">WebFont.load({  google: {    families: ["IBM Plex Mono:regular"]  }});</script><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+<link href="https://assets-global.website-files.com/5e7b1a27d160ce49af1c24e1/5ea163575e0858830c8597ab_favicon.png" rel="shortcut icon" type="image/x-icon">
+<link href="https://assets-global.website-files.com/5e7b1a27d160ce49af1c24e1/5ea1636e2cb513d4bc48267e_webclip.png" rel="apple-touch-icon">
+<style>
+.h2 {
+    font-feature-settings: 'ss01' on
+}
+.h3 {
+    font-feature-settings: 'ss01' on
+}
+.heading {
+    font-feature-settings: 'ss01' on
+}
+.heading.white {
+    font-feature-settings: 'ss01' on
+}
+</style>
+<style>
+.body {
+    -webkit-font-smoothing: antialiased;
+}
+.smallcaps {
+    -webkit-font-smoothing: antialiased;
+}
+.body white {
+    -webkit-font-smoothing: antialiased;
+}
+.body white small {
+    -webkit-font-smoothing: antialiased;
+}
+.everything {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.body {
+    font-feature-settings: 'ss01' on;
+}
+</style>
+<!-- jekyll seo -->
+{% seo %}
+<!-- jekyll seo -->
+</head>
+<body class="body">
+<div class="site-navigation">
+  <div class="desktop-site-nav">
+    <div class="primary-site-nav-options">
+      <div class="site-nav-option"><a href="https://www.blockstack.org/" class="site-navigation-logo w-inline-block"><img src="/static/svg/5e907c21d658d47eb36572d6_logo.svg" alt="Blockstack logo" class="site-nav-logo-large"><img src="/static/svg/5e957fc653bc52378699c3f0_block.svg" alt="" class="site-nav-logo-small"></a></div>
+      <div class="site-nav-option">
+        <div data-hover="1" data-delay="0" class="dropdown w-dropdown">
+          <div class="dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-0" aria-controls="w-dropdown-list-0" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0" style="outline: none;">
+            <div class="site-nav-option _4">
+              <div class="body _16px medium">Technology</div>
+            </div>
+            <img src="/static/svg/5e942537241fd812b97db4a5_chevron01.svg" width="16" height="" alt=""></div>
+          <nav class="dropdown-menu w-dropdown-list" id="w-dropdown-list-0" aria-labelledby="w-dropdown-toggle-0"><a href="https://blockstack.org/technology" class="dropdown-item first-dropdown-item w-dropdown-link" tabindex="0" style="outline: none;">Overview</a><a href="https://docs.blockstack.org/" class="dropdown-item w-dropdown-link" tabindex="0" style="outline: none;">Documentation</a><a href="https://www2.blockstack.org/" aria-current="page" class="dropdown-item w-dropdown-link w--current" tabindex="0" style="outline: none;">Testnet</a><a href="https://github.com/blockstack" target="_blank" class="dropdown-item w-dropdown-link" tabindex="0" style="outline: none;">GitHub</a><a href="https://blockstack.org/papers" class="dropdown-item last-dropdown-item w-dropdown-link" tabindex="0" style="outline: none;">Papers</a></nav>
+        </div>
+      </div>
+      <div class="site-nav-option">
+        <div data-hover="1" data-delay="0" class="dropdown w-dropdown">
+          <div class="dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-1" aria-controls="w-dropdown-list-1" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0" style="outline: none;">
+            <div class="site-nav-option _4">
+              <div class="body _16px medium">About</div>
+            </div>
+            <img src="/static/svg/5e942537241fd812b97db4a5_chevron01.svg" width="16" height="" alt=""></div>
+          <nav class="dropdown-menu w-dropdown-list" id="w-dropdown-list-1" aria-labelledby="w-dropdown-toggle-1"><a href="https://blockstack.org/careers" class="dropdown-item first-dropdown-item w-dropdown-link" tabindex="0" style="outline: none;">Careers</a><a href="https://blockstack.org/about" class="dropdown-item w-dropdown-link" tabindex="0" style="outline: none;">Company</a>
+            <div class="w-dyn-list">
+              <div class="w-dyn-items">
+                <div class="w-dyn-item"><a href="https://blockstack.org/roadmap" class="dropdown-item w-dropdown-link" tabindex="0" style="outline: none;">Roadmap</a></div>
+              </div>
+            </div>
+            <a href="https://stackstoken.com/" target="_blank" class="dropdown-item last-dropdown-item w-dropdown-link" tabindex="0" style="outline: none;">Stacks Token</a></nav>
+        </div>
+      </div>
+      <div class="site-nav-option">
+        <div data-hover="1" data-delay="0" class="dropdown w-dropdown">
+          <div class="dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-2" aria-controls="w-dropdown-list-2" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0" style="outline: none;">
+            <div class="site-nav-option _4">
+              <div class="body _16px medium">Community</div>
+            </div>
+            <img src="/static/svg/5e942537241fd812b97db4a5_chevron01.svg" width="16" height="" alt=""></div>
+          <nav class="dropdown-menu w-dropdown-list" id="w-dropdown-list-2" aria-labelledby="w-dropdown-toggle-2"><a href="https://blog.blockstack.org/" target="_blank" class="dropdown-item first-dropdown-item w-dropdown-link" tabindex="0" style="outline: none;">Blog</a><a href="https://discordapp.com/invite/QXDPpQq" target="_blank" class="dropdown-item w-dropdown-link" tabindex="0" style="outline: none;">Discord</a><a href="https://forum.blockstack.org/" target="_blank" class="dropdown-item w-dropdown-link" tabindex="0" style="outline: none;">Forum</a><a href="https://community.blockstack.org/events" target="_blank" class="dropdown-item last-dropdown-item w-dropdown-link" tabindex="0" style="outline: none;">Events</a></nav>
+        </div>
+      </div>
+    </div>
+    <a href="https://www2.blockstack.org/apps" class="secondary-site-nav-option">Try apps</a></div>
+  <div class="mobile-site-nav">
+    <div class="div-block-86"><a href="https://www.blockstack.org/" class="w-inline-block"><img src="/static/svg/5e907c21d658d47eb36572d6_logo.svg" alt="" class="image-15"></a></div>
+    <div data-w-id="8faef81f-f347-8d5e-a394-d5f1af24363a" class="mobile-site-nav-toggle"><img src="/static/svg/5e944520176f31f4ecc9b4d8_menu-icon.svg" data-w-id="8faef81f-f347-8d5e-a394-d5f1af24363b" alt="" class="mobile-site-nav-open"></div>
+    <div class="mobile-site-nav-menu">
+      <div class="div-block-86"><img src="/static/svg/5e9441e5176f31e684c9a54c_close-icon.svg" data-w-id="0cc40729-6b68-b295-d107-47a1b86cdc5f" alt="" class="mobile-site-nav-close"><a href="https://www.blockstack.org/" class="w-inline-block"><img src="/static/svg/5e907c21d658d47eb36572d6_logo.svg" alt="" class="image-15"></a></div>
+      <div class="site-nav-section">
+        <div class="mobile-site-nav-section-header">Technology</div>
+        <a href="https://blockstack.org/technology" class="mobile-site-nav-option w-inline-block">
+        <div class="body _16px medium">Overview</div>
+        </a><a href="https://docs.blockstack.org/" target="_blank" class="mobile-site-nav-option w-inline-block">
+        <div class="body _16px medium">Documentation</div>
+        </a><a href="https://www2.blockstack.org/" aria-current="page" class="mobile-site-nav-option w-inline-block w--current">
+        <div class="body _16px medium">Testnet</div>
+        </a><a href="https://github.com/blockstack" target="_blank" class="mobile-site-nav-option w-inline-block">
+        <div class="body _16px medium">GitHub</div>
+        </a></div>
+      <div class="site-nav-section">
+        <div class="mobile-site-nav-section-header">About</div>
+        <a href="https://blockstack.org/careers" class="mobile-site-nav-option w-inline-block">
+        <div class="body _16px medium">Careers</div>
+        </a><a href="https://blockstack.org/about" class="mobile-site-nav-option w-inline-block">
+        <div class="body _16px medium">Company</div>
+        </a>
+        <div class="w-dyn-list">
+          <div class="w-dyn-items">
+            <div class="w-dyn-item"><a href="https://blockstack.org/roadmap" class="mobile-site-nav-option w-inline-block">
+              <div class="body _16px medium">Patent Pledge</div>
+              </a></div>
+            <div class="w-dyn-item"><a href="https://blockstack.org/roadmap" class="mobile-site-nav-option w-inline-block">
+              <div class="body _16px medium">Blockstack Roadmap</div>
+              </a></div>
+          </div>
+        </div>
+        <a href="https://stackstoken.com/" target="_blank" class="mobile-site-nav-option w-inline-block">
+        <div class="body _16px medium">Stacks Token</div>
+        </a></div>
+      <div class="site-nav-section">
+        <div class="mobile-site-nav-section-header">Community</div>
+        <a href="https://blog.blockstack.org/" target="_blank" class="mobile-site-nav-option w-inline-block">
+        <div class="body _16px medium">Blog</div>
+        </a><a href="https://discordapp.com/invite/QXDPpQq" target="_blank" class="mobile-site-nav-option w-inline-block">
+        <div class="body _16px medium">Discord</div>
+        </a><a href="https://forum.blockstack.org/" target="_blank" class="mobile-site-nav-option w-inline-block">
+        <div class="body _16px medium">Forum</div>
+        </a><a href="https://community.blockstack.org/events#event=35856411" target="_blank" class="mobile-site-nav-option w-inline-block">
+        <div class="body _16px medium">Events</div>
+        </a></div>
+      <div class="site-nav-section"><a href="https://www2.blockstack.org/apps" target="_blank" class="mobile-site-nav-option w-inline-block">
+        <div class="body _16px medium">Try apps</div>
+        </a></div>
+    </div>
+  </div>
+</div>
+<div>
+  <ul class="menu left">
+    <li class="ui-widget-header" id="category2"><div>Category 1 <img src="/static/svg/5e942537241fd812b97db4a5_chevron01.svg" width="16"></div></li>
+    <li><div><a href="/test/">Option 1</a></div></li>
+    <li><div>Option 2</div></li>
+    <li><div>Option 3</div></li>
+    <li class="ui-widget-header" id="category2"><div>Category 2 <img src="/static/svg/5e942537241fd812b97db4a5_chevron01.svg" width="16"></div></li>
+    <li><div>Option 4</div></li>
+    <li><div>Option 5</div></li>
+    <li><div>Option 6</div></li>
+  </ul>
+</div>
+<div>
+  <ul class="menu right">
+    <li><div>Option 7</div></li>
+    <li><div>Option 8</div></li>
+    <li><div>Option 9</div></li>
+    <li><div>Option 10</div></li>
+    <li><div>Option 11</div></li>
+  </ul>
+</div>
+<div data-w-id="0851feed-cebf-9db5-2b8d-f9bd2dbac17e" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 1; transform-style: preserve-3d;" class="resources-section">
+
+    <div class="width">
+      <div class="hero-copy">
+        <h1 data-w-id="23e23c62-242a-668d-6ffb-ea83137b5733" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 1; transform-style: preserve-3d;" class="heading fade-in">{{ page.title }}</h1>
+      </div>
+
+      {{ content }}
+
+  </div>
+</div>
+
+<div class="site-footer section-2">
+  <div class="desktop-footer">
+    <div class="site-footer-container">
+      <div class="site-footer-section">
+        <div class="site-footer-section-header">Blockstack</div>
+        <a href="https://www2.blockstack.org/apps" class="site-footer-option">Try apps</a><a href="https://www.stackstoken.com/" target="_blank" class="site-footer-option">Stacks Token</a><a href="https://wallet.blockstack.org/" target="_blank" class="site-footer-option">Stacks Wallet</a><a href="https://explorer.blockstack.org/" target="_blank" class="site-footer-option">Stacks Explorer</a></div>
+      <div class="site-footer-section">
+        <div class="site-footer-section-header">Technology</div>
+        <a href="http://docs.blockstack.org/" target="_blank" class="site-footer-option">Documentation</a><a href="https://www2.blockstack.org/papers" class="site-footer-option">Tutorials</a><a href="https://www2.blockstack.org/" aria-current="page" class="site-footer-option w--current">Testnet</a><a href="https://github.com/blockstack/" target="_blank" class="site-footer-option">GitHub</a><a href="https://www.blockstack.org/papers" class="site-footer-option">Papers</a></div>
+      <div class="site-footer-section">
+        <div class="site-footer-section-header">Community</div>
+        <a href="https://forum.blockstack.org/" target="_blank" class="site-footer-option">Forum</a><a href="https://discordapp.com/invite/QXDPpQq" target="_blank" class="site-footer-option">Discord</a><a href="https://blog.blockstack.org/" target="_blank" class="site-footer-option">Blog</a><a href="https://community.blockstack.org/events" target="_blank" class="site-footer-option">Events</a></div>
+      <div class="site-footer-section">
+        <div class="site-footer-section-header">About</div>
+        <a href="https://www.blockstack.org/about" class="site-footer-option">Blockstack PBC</a><a href="https://www.blockstack.org/careers" class="site-footer-option">Careers</a><a href="https://wallet.blockstack.org/" target="_blank" class="site-footer-option">Resources</a></div>
+      <div class="site-footer-section">
+        <div class="body _16px bold">Stay up to date</div>
+        <div id="site-footer-newsletter" class="footer-form w-form">
+          <form id="wf-form-Footer-email-form" name="wf-form-Footer-email-form" data-name="Footer email form" method="post" action="https://api.app.co/api/blockstack-subscribe" data-w-id="f77dccf9-fd0a-f261-9b92-bdd5ad2277e5" class="footer-email-form">
+            <input type="email" class="textfield subdued footer w-input" maxlength="256" name="email" data-name="Email" placeholder="Enter your email" id="email" required="">
+            <input type="submit" value="" data-wait="" class="submit-button footer-form w-button" style="transform: translate3d(0px, 4px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; display: none; opacity: 1;">
+          </form>
+          <div class="success-message footer w-form-done">
+            <div class="body _14px medium blue">Thank you!</div>
+          </div>
+          <div class="error-message-2 w-form-fail">
+            <div class="body _14px medium error">Something went wrong</div>
+          </div>
+        </div>
+        <div class="footer-social-icons"><a href="https://www.twitter.com/blockstack" target="_blank" class="footer-social-icon w-inline-block"><img src="/static/svg/5e998b5e5101bd0416a75f8a_twitter-icon.svg" alt=""></a><a href="https://github.com/blockstack" target="_blank" class="footer-social-icon w-inline-block"><img src="/static/svg/5e998bac5b19972a87e9c569_github-icon.svg" alt=""></a><a href="https://discord.gg/6PcCMU" target="_blank" class="footer-social-icon last w-inline-block"><img src="/static/svg/5e998bba92d216df904dbd11_discord-icon.svg" alt=""></a></div>
+      </div>
+    </div>
+    <div class="footer-bottom-section">
+      <div class="footer-bottom-section left-side"><img src="/static/svg/5e907c21d658d47eb36572d6_logo.svg" alt="" class="logo footer">
+        <div class="caption copyright">Copyright © 2020 Blockstack PBC. All rights reserved.</div>
+      </div>
+      <div class="footer-bottom-section right-side"><a href="https://blockstack.org/legal/terms-of-use" class="footer-small-link first">Terms of Use</a><a href="https://blockstack.org/legal/privacy-policy" class="footer-small-link">Privacy Policy</a><a href="https://blockstack.org/legal/disclaimers" class="footer-small-link">Disclaimers</a></div>
+    </div>
+  </div>
+  <div class="mobile-footer">
+    <div class="site-footer-section">
+      <div class="body _16px bold">Stay up to date</div>
+      <div class="footer-form w-form">
+        <form id="wf-form-Footer-email-form" name="wf-form-Footer-email-form" data-name="Footer email form" data-w-id="ad770557-4ba3-d3c4-7b0d-ae6a4b6ccdd7" class="footer-email-form">
+          <input type="email" class="textfield subdued footer w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="Enter your email" id="email-2" required="">
+          <input type="submit" value="" data-wait="" class="submit-button footer-form w-button" style="transform: translate3d(0px, 4px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; display: none; opacity: 1;">
+        </form>
+        <div class="w-form-done">
+          <div>Thank you! Your submission has been received!</div>
+        </div>
+        <div class="w-form-fail">
+          <div>Oops! Something went wrong while submitting the form.</div>
+        </div>
+      </div>
+    </div>
+    <div data-w-id="92ddd394-f298-243d-c99b-92740bfeda6a" class="accordion first">
+      <div class="accordion-title footer-menu">
+        <div class="body _16px bold">Blockstack</div>
+        <img src="/static/svg/5e9991489c91d4d46d5a533b_chevron.svg" alt="" class="faq-chevron"></div>
+      <div class="accordion-content" style="display: none;">
+        <div class="margin-bottom"><a href="https://www2.blockstack.org/apps" class="site-footer-option">Try apps</a><a href="https://www.stackstoken.com/" target="_blank" class="site-footer-option">Stacks Token</a><a href="https://wallet.blockstack.org/" target="_blank" class="site-footer-option">Stacks Wallet</a><a href="https://explorer.blockstack.org/" target="_blank" class="site-footer-option">Stacks Explorer</a></div>
+      </div>
+    </div>
+    <div data-w-id="d300005a-0343-5232-5421-c826d05bae5f" class="accordion">
+      <div class="accordion-title footer-menu">
+        <div class="body _16px bold">Technology</div>
+        <img src="/static/svg/5e9991489c91d4d46d5a533b_chevron.svg" alt="" class="faq-chevron"></div>
+      <div class="accordion-content" style="display: none;">
+        <div class="margin-bottom"><a href="http://docs.blockstack.org/" target="_blank" class="site-footer-option">Documentation</a><a href="https://www2.blockstack.org/papers" class="site-footer-option">Tutorials</a><a href="https://github.com/blockstack/" target="_blank" class="site-footer-option">GitHub</a><a href="https://www.blockstack.org/papers" class="site-footer-option">Papers</a></div>
+      </div>
+    </div>
+    <div data-w-id="da028648-44b2-9205-0782-f83d36b13513" class="accordion">
+      <div class="accordion-title footer-menu">
+        <div class="body _16px bold">Community</div>
+        <img src="/static/svg/5e9991489c91d4d46d5a533b_chevron.svg" alt="" class="faq-chevron"></div>
+      <div class="accordion-content" style="display: none;">
+        <div class="margin-bottom"><a href="https://forum.blockstack.org/" target="_blank" class="site-footer-option">Forum</a><a href="https://discordapp.com/invite/QXDPpQq" target="_blank" class="site-footer-option">Discord</a><a href="https://blog.blockstack.org/" target="_blank" class="site-footer-option">Blog</a><a href="https://community.blockstack.org/events" target="_blank" class="site-footer-option">Events</a></div>
+      </div>
+    </div>
+    <div data-w-id="fd33e80a-953d-896b-bb2e-d2b01fa68a9a" class="accordion">
+      <div class="accordion-title footer-menu">
+        <div class="body _16px bold">About</div>
+        <img src="/static/svg/5e9991489c91d4d46d5a533b_chevron.svg" alt="" class="faq-chevron"></div>
+      <div class="accordion-content">
+        <div class="margin-bottom"><a href="https://www.blockstack.org/about" class="site-footer-option">Blockstack PBC</a><a href="https://www.blockstack.org/careers" class="site-footer-option">Careers</a><a href="https://wallet.blockstack.org/" target="_blank" class="site-footer-option">Resources</a></div>
+      </div>
+    </div>
+    <div class="footer-bottom-section mobile">
+      <div class="footer-bottom-section right-side mobile"><a href="https://blockstack.org/legal/terms-of-use" class="footer-small-link first">Terms of Use</a><a href="https://blockstack.org/legal/privacy-policy" class="footer-small-link">Privacy Policy</a><a href="https://blockstack.org/legal/disclaimers" class="footer-small-link">Disclaimers</a></div>
+      <div class="footer-social-icons mobile"><a href="https://www.twitter.com/blockstack" target="_blank" class="footer-social-icon w-inline-block"><img src="/static/svg/5e998b5e5101bd0416a75f8a_twitter-icon.svg" alt=""></a><a href="https://github.com/blockstack" target="_blank" class="footer-social-icon w-inline-block"><img src="/static/svg/5e998bac5b19972a87e9c569_github-icon.svg" alt=""></a><a href="https://discord.gg/6PcCMU" target="_blank" class="footer-social-icon last w-inline-block"><img src="/static/svg/5e998bba92d216df904dbd11_discord-icon.svg" alt=""></a></div>
+      <div class="caption copyright mobile">Copyright © 2020 Blockstack PBC. All rights reserved.</div>
+    </div>
+  </div>
+</div>
+<div class="disclaimer">
+  <div class="width disclaimer">
+    <div class="caption medium title">Important disclaimer</div>
+    <div class="caption disclaimer-body">Blockstack PBC is not registered, licensed, or supervised as a broker dealer or investment adviser by the Securities and Exchange Commission (SEC), the Financial Industry Regulatory Authority (FINRA), or any other financial regulatory authority or licensed to provide any financial advice or services.</div>
+    <div class="caption medium title">Forward-looking statements</div>
+    <div class="caption disclaimer-body">This communication contains forward-looking statements that are based on our beliefs and assumptions and on information currently available to us. In some cases, you can identify forward-looking statements by the following words: “will,” “expect,” “would,” “intend,” “believe,” or other comparable terminology. Forward-looking statements in this document include, but are not limited to, statements about our plans for developing the platform and future utility for the Stacks Token, our Clarity smart contracting language, and potential mining operations. These statements involve risks, uncertainties, assumptions, and other factors that may cause actual results or performance to be materially different. We cannot assure you that the forward-looking statements will prove to be accurate. These forward-looking statements speak only as of the date hereof. We disclaim any obligation to update these forward-looking statements.</div>
+  </div>
+</div>
+<script src="/static/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript"></script>
+<script src="/static/js/jquery-ui.min.js"></script>
+<script>
+  $(document).ready(() => {
+    $('.menu.left').menu();
+    $('.menu.right').menu();
+    var appendingHTML = new Array();
+    $('h2').each(function(){
+      appendingHTML.push('<li><div><a href="#'+ this.id +'">'+ $(this).text() +'</div></li>')
+    });
+    $('.menu.right').html(appendingHTML.join(''));
+  });
+</script>
+</body>
+</html>

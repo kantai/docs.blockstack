@@ -1,0 +1,8 @@
+Gemfile.lock
+**/.DS_Store
+**/desktop.ini
+.bundle/**
+.jekyll-metadata
+_site/**
+.sass-cache/**
+Gemfile.lock

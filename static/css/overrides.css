@@ -1,0 +1,79 @@
+h2
+{
+  letter-spacing: -.18px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  font-weight: 400;
+  color: #0f1117;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Soehne web halbfett',sans-serif;
+  font-size: 36px;
+  line-height: 52px;
+  font-feature-settings: 'ss01' on;
+}
+h3
+{
+  margin-bottom: 20px !important;
+}
+pre {
+  padding: 20px;
+  background: #fafafa;
+  border-radius: 5px;
+  white-space: pre-wrap;
+}
+code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 2px 5px 2px 5px;
+}
+table tr th {
+  background: #F5F5F5;
+  text-align: left;
+  padding: 10px;
+}
+table {
+  width: 100%;
+  border: 2px solid #F5F5F5;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+table tr td {
+  border: 2px solid #F5F5F5;
+  padding: 10px;
+}
+li, ul, ol
+{
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+blockquote
+{
+  line-height: inherit !important;
+  color: gray;
+}
+.menu
+{
+  position: fixed;
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 0px !important;
+  z-index: 99;
+  top: 72px;
+}
+.menu.right {
+  position: fixed;
+  right: 0px;
+}
+.desktop-site-nav
+{
+  position: fixed;
+  background-color: white !important;
+  z-index: 99;
+}
+@media screen and (max-width: 1000px) {
+  .menu.right {
+    display: none;
+  }
+}

@@ -1,0 +1,61 @@
+name: Blockstack Documentation
+title: Blockstack Documentation
+tagline: Official documentation for the Blockstack distributed/decentralized app platform, powered by Stacks tokens.
+url: https://docs.blockstack.org
+author: Blockstack
+twitter:
+  username: blockstack
+  card: summary
+logo: /static/svg/5e907c21d658d47eb36572d6_logo.svg
+social:
+  name: Blockstack
+  links:
+  - https://www.blockstack.org
+  - https://www.twitter.com/blockstack
+  - https://github.com/blockstack
+  - https://discord.gg/6PcCMU
+google_site_verification: 5E1wcMGH3lxrgcfeeUogxOQl-eSLQFnH7cm1LT3n3Rs
+lang: en_US
+markdown: kramdown
+kramdown:
+  input: GFM
+  gfm_quirks: [paragraph_end, no_auto_typographic]
+  html_to_native: true
+  hard_wrap: false
+  syntax_highlighter_opts:
+    disable : true
+  toc_levels: 2..3
+incremental: true
+permalink: pretty
+safe: false
+lsi: false
+highlighter: none
+exclude: ["Gemfile"]
+
+# Google Analytics, etc.
+# TODO these should only be set when building for production, or passed as an environment variable when building
+
+#Stuff for Jekyll SEO
+
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: docs
+
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _scss
+  style:            :compressed
